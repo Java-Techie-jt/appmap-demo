@@ -1,0 +1,2049 @@
+{
+  "events": [
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "content-length": "62",
+          "postman-token": "bcc9dc7c-cdbf-4526-a390-978fdd4feb89",
+          "host": "localhost:8080",
+          "content-type": "application/json",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "PostmanRuntime/7.29.2",
+          "accept": "*/*"
+        },
+        "normalized_path_info": "/api/employee",
+        "path_info": "/api/employee",
+        "protocol": "HTTP/1.1",
+        "request_method": "POST"
+      },
+      "id": 1,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 2,
+      "lineno": 21,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1949598773,
+          "value": "Basant"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 370268648,
+        "value": "com.javatechie.dto.EmployeeDTO@1611d9e8"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0130046,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 4,
+      "lineno": 29,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 405549144,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 370268648,
+        "value": "com.javatechie.dto.EmployeeDTO@1611d9e8"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0001078,
+      "event": "return",
+      "id": 5,
+      "parent_id": 4,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 6,
+      "lineno": 37,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 109939080,
+          "value": "500000.0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 370268648,
+        "value": "com.javatechie.dto.EmployeeDTO@1611d9e8"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0000145,
+      "event": "return",
+      "id": 7,
+      "parent_id": 6,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+      "event": "call",
+      "id": 8,
+      "lineno": 33,
+      "method_id": "save",
+      "parameters": [
+        {
+          "class": "com.javatechie.dto.EmployeeDTO",
+          "kind": "req",
+          "name": "employeeDTO",
+          "object_id": 370268648,
+          "value": "com.javatechie.dto.EmployeeDTO@1611d9e8"
+        }
+      ],
+      "path": "com/javatechie/controller/impl/EmployeeControllerImpl.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+        "object_id": 897478931,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImpl@357e7113"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 9,
+      "lineno": 64,
+      "method_id": "asEntity",
+      "parameters": [
+        {
+          "class": "com.javatechie.dto.EmployeeDTO",
+          "kind": "req",
+          "name": "dto",
+          "object_id": 370268648,
+          "value": "com.javatechie.dto.EmployeeDTO@1611d9e8"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.entity.Employee",
+      "event": "call",
+      "id": 10,
+      "lineno": 40,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1949598773,
+          "value": "Basant"
+        }
+      ],
+      "path": "com/javatechie/entity/Employee.java",
+      "receiver": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 540645528,
+        "value": "com.javatechie.entity.Employee@20399898"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0000419,
+      "event": "return",
+      "id": 11,
+      "parent_id": 10,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.entity.Employee",
+      "event": "call",
+      "id": 12,
+      "lineno": 48,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 405549144,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/entity/Employee.java",
+      "receiver": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 540645528,
+        "value": "com.javatechie.entity.Employee@20399898"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0000237,
+      "event": "return",
+      "id": 13,
+      "parent_id": 12,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.entity.Employee",
+      "event": "call",
+      "id": 14,
+      "lineno": 56,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 346395987,
+          "value": "500000.0"
+        }
+      ],
+      "path": "com/javatechie/entity/Employee.java",
+      "receiver": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 540645528,
+        "value": "com.javatechie.entity.Employee@20399898"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0000326,
+      "event": "return",
+      "id": 15,
+      "parent_id": 14,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0003604,
+      "event": "return",
+      "id": 16,
+      "parent_id": 9,
+      "return_value": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 540645528,
+        "value": "com.javatechie.entity.Employee@20399898"
+      },
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.service.impl.EmployeeServiceImpl",
+      "event": "call",
+      "id": 17,
+      "lineno": 18,
+      "method_id": "save",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "object_id": 540645528,
+          "value": "com.javatechie.entity.Employee@20399898"
+        }
+      ],
+      "path": "com/javatechie/service/impl/EmployeeServiceImpl.java",
+      "receiver": {
+        "class": "com.javatechie.service.impl.EmployeeServiceImpl",
+        "object_id": 309534943,
+        "value": "com.javatechie.service.impl.EmployeeServiceImpl@127320df"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.service.impl.EmployeeServiceImpl",
+      "event": "call",
+      "id": 18,
+      "lineno": 29,
+      "method_id": "save",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "name": "entity",
+          "object_id": 540645528,
+          "value": "com.javatechie.entity.Employee@20399898"
+        }
+      ],
+      "path": "com/javatechie/service/impl/EmployeeServiceImpl.java",
+      "receiver": {
+        "class": "com.javatechie.service.impl.EmployeeServiceImpl",
+        "object_id": 309534943,
+        "value": "com.javatechie.service.impl.EmployeeServiceImpl@127320df"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "event": "call",
+      "id": 19,
+      "sql_query": {
+        "database_type": "H2",
+        "sql": "insert into employee (id, dept, name, salary) values (default, ?, ?, ?)"
+      },
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0281332,
+      "event": "return",
+      "id": 20,
+      "parent_id": 19,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0431886,
+      "event": "return",
+      "id": 21,
+      "parent_id": 18,
+      "return_value": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 540645528,
+        "value": "com.javatechie.entity.Employee@20399898"
+      },
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0432306,
+      "event": "return",
+      "id": 22,
+      "parent_id": 17,
+      "return_value": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 540645528,
+        "value": "com.javatechie.entity.Employee@20399898"
+      },
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 23,
+      "lineno": 10,
+      "method_id": "asDTO",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "object_id": 540645528,
+          "value": "com.javatechie.entity.Employee@20399898"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 24,
+      "lineno": 20,
+      "method_id": "asDTO",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "name": "entity",
+          "object_id": 540645528,
+          "value": "com.javatechie.entity.Employee@20399898"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 25,
+      "lineno": 13,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 158954806,
+          "value": "1"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1716584195,
+        "value": "com.javatechie.dto.EmployeeDTO@6650ff03"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0002956,
+      "event": "return",
+      "id": 26,
+      "parent_id": 25,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 27,
+      "lineno": 21,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1949598773,
+          "value": "Basant"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1716584195,
+        "value": "com.javatechie.dto.EmployeeDTO@6650ff03"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0000103,
+      "event": "return",
+      "id": 28,
+      "parent_id": 27,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 29,
+      "lineno": 29,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 405549144,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1716584195,
+        "value": "com.javatechie.dto.EmployeeDTO@6650ff03"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0000331,
+      "event": "return",
+      "id": 30,
+      "parent_id": 29,
+      "thread_id": 27
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 31,
+      "lineno": 37,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 1660707583,
+          "value": "500000.0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1716584195,
+        "value": "com.javatechie.dto.EmployeeDTO@6650ff03"
+      },
+      "static": false,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0000154,
+      "event": "return",
+      "id": 32,
+      "parent_id": 31,
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.000508,
+      "event": "return",
+      "id": 33,
+      "parent_id": 24,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1716584195,
+        "value": "com.javatechie.dto.EmployeeDTO@6650ff03"
+      },
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0005502,
+      "event": "return",
+      "id": 34,
+      "parent_id": 23,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1716584195,
+        "value": "com.javatechie.dto.EmployeeDTO@6650ff03"
+      },
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0495533,
+      "event": "return",
+      "id": 35,
+      "parent_id": 8,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1716584195,
+        "value": "com.javatechie.dto.EmployeeDTO@6650ff03"
+      },
+      "thread_id": 27
+    },
+    {
+      "elapsed": 0.0897329,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Thu, 08 Jun 2023 06:53:03 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 201
+      },
+      "id": 36,
+      "parent_id": 1,
+      "thread_id": 27
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "content-length": "64",
+          "postman-token": "e0f5b584-3f47-486c-9179-da0536e37553",
+          "host": "localhost:8080",
+          "content-type": "application/json",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "PostmanRuntime/7.29.2",
+          "accept": "*/*"
+        },
+        "normalized_path_info": "/api/employee",
+        "path_info": "/api/employee",
+        "protocol": "HTTP/1.1",
+        "request_method": "POST"
+      },
+      "id": 37,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 38,
+      "lineno": 21,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 124148829,
+          "value": "Santosh"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 710889789,
+        "value": "com.javatechie.dto.EmployeeDTO@2a5f513d"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000197,
+      "event": "return",
+      "id": 39,
+      "parent_id": 38,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 40,
+      "lineno": 29,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 917232246,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 710889789,
+        "value": "com.javatechie.dto.EmployeeDTO@2a5f513d"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000083,
+      "event": "return",
+      "id": 41,
+      "parent_id": 40,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 42,
+      "lineno": 37,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 1383631284,
+          "value": "1000000.0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 710889789,
+        "value": "com.javatechie.dto.EmployeeDTO@2a5f513d"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000071,
+      "event": "return",
+      "id": 43,
+      "parent_id": 42,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+      "event": "call",
+      "id": 44,
+      "lineno": 33,
+      "method_id": "save",
+      "parameters": [
+        {
+          "class": "com.javatechie.dto.EmployeeDTO",
+          "kind": "req",
+          "name": "employeeDTO",
+          "object_id": 710889789,
+          "value": "com.javatechie.dto.EmployeeDTO@2a5f513d"
+        }
+      ],
+      "path": "com/javatechie/controller/impl/EmployeeControllerImpl.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+        "object_id": 897478931,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImpl@357e7113"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 45,
+      "lineno": 64,
+      "method_id": "asEntity",
+      "parameters": [
+        {
+          "class": "com.javatechie.dto.EmployeeDTO",
+          "kind": "req",
+          "name": "dto",
+          "object_id": 710889789,
+          "value": "com.javatechie.dto.EmployeeDTO@2a5f513d"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.entity.Employee",
+      "event": "call",
+      "id": 46,
+      "lineno": 40,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 124148829,
+          "value": "Santosh"
+        }
+      ],
+      "path": "com/javatechie/entity/Employee.java",
+      "receiver": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 1732879122,
+        "value": "com.javatechie.entity.Employee@6749a312"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.000019,
+      "event": "return",
+      "id": 47,
+      "parent_id": 46,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.entity.Employee",
+      "event": "call",
+      "id": 48,
+      "lineno": 48,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 917232246,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/entity/Employee.java",
+      "receiver": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 1732879122,
+        "value": "com.javatechie.entity.Employee@6749a312"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000067,
+      "event": "return",
+      "id": 49,
+      "parent_id": 48,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.entity.Employee",
+      "event": "call",
+      "id": 50,
+      "lineno": 56,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 927973503,
+          "value": "1000000.0"
+        }
+      ],
+      "path": "com/javatechie/entity/Employee.java",
+      "receiver": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 1732879122,
+        "value": "com.javatechie.entity.Employee@6749a312"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000068,
+      "event": "return",
+      "id": 51,
+      "parent_id": 50,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0001223,
+      "event": "return",
+      "id": 52,
+      "parent_id": 45,
+      "return_value": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 1732879122,
+        "value": "com.javatechie.entity.Employee@6749a312"
+      },
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.service.impl.EmployeeServiceImpl",
+      "event": "call",
+      "id": 53,
+      "lineno": 18,
+      "method_id": "save",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "object_id": 1732879122,
+          "value": "com.javatechie.entity.Employee@6749a312"
+        }
+      ],
+      "path": "com/javatechie/service/impl/EmployeeServiceImpl.java",
+      "receiver": {
+        "class": "com.javatechie.service.impl.EmployeeServiceImpl",
+        "object_id": 309534943,
+        "value": "com.javatechie.service.impl.EmployeeServiceImpl@127320df"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.service.impl.EmployeeServiceImpl",
+      "event": "call",
+      "id": 54,
+      "lineno": 29,
+      "method_id": "save",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "name": "entity",
+          "object_id": 1732879122,
+          "value": "com.javatechie.entity.Employee@6749a312"
+        }
+      ],
+      "path": "com/javatechie/service/impl/EmployeeServiceImpl.java",
+      "receiver": {
+        "class": "com.javatechie.service.impl.EmployeeServiceImpl",
+        "object_id": 309534943,
+        "value": "com.javatechie.service.impl.EmployeeServiceImpl@127320df"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "event": "call",
+      "id": 55,
+      "sql_query": {
+        "database_type": "H2",
+        "sql": "insert into employee (id, dept, name, salary) values (default, ?, ?, ?)"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000371,
+      "event": "return",
+      "id": 56,
+      "parent_id": 55,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0001709,
+      "event": "return",
+      "id": 57,
+      "parent_id": 54,
+      "return_value": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 1732879122,
+        "value": "com.javatechie.entity.Employee@6749a312"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0002038,
+      "event": "return",
+      "id": 58,
+      "parent_id": 53,
+      "return_value": {
+        "class": "com.javatechie.entity.Employee",
+        "object_id": 1732879122,
+        "value": "com.javatechie.entity.Employee@6749a312"
+      },
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 59,
+      "lineno": 10,
+      "method_id": "asDTO",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "object_id": 1732879122,
+          "value": "com.javatechie.entity.Employee@6749a312"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 60,
+      "lineno": 20,
+      "method_id": "asDTO",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "name": "entity",
+          "object_id": 1732879122,
+          "value": "com.javatechie.entity.Employee@6749a312"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 61,
+      "lineno": 13,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1540036707,
+          "value": "2"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1661450482,
+        "value": "com.javatechie.dto.EmployeeDTO@6307b8f2"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000362,
+      "event": "return",
+      "id": 62,
+      "parent_id": 61,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 63,
+      "lineno": 21,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 124148829,
+          "value": "Santosh"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1661450482,
+        "value": "com.javatechie.dto.EmployeeDTO@6307b8f2"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000089,
+      "event": "return",
+      "id": 64,
+      "parent_id": 63,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 65,
+      "lineno": 29,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 917232246,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1661450482,
+        "value": "com.javatechie.dto.EmployeeDTO@6307b8f2"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000097,
+      "event": "return",
+      "id": 66,
+      "parent_id": 65,
+      "thread_id": 28
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 67,
+      "lineno": 37,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 713216213,
+          "value": "1000000.0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1661450482,
+        "value": "com.javatechie.dto.EmployeeDTO@6307b8f2"
+      },
+      "static": false,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0000084,
+      "event": "return",
+      "id": 68,
+      "parent_id": 67,
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0002574,
+      "event": "return",
+      "id": 69,
+      "parent_id": 60,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1661450482,
+        "value": "com.javatechie.dto.EmployeeDTO@6307b8f2"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0003522,
+      "event": "return",
+      "id": 70,
+      "parent_id": 59,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1661450482,
+        "value": "com.javatechie.dto.EmployeeDTO@6307b8f2"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0010285,
+      "event": "return",
+      "id": 71,
+      "parent_id": 44,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1661450482,
+        "value": "com.javatechie.dto.EmployeeDTO@6307b8f2"
+      },
+      "thread_id": 28
+    },
+    {
+      "elapsed": 0.0014507,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Thu, 08 Jun 2023 06:53:16 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 201
+      },
+      "id": 72,
+      "parent_id": 37,
+      "thread_id": 28
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "content-length": "64",
+          "postman-token": "fb619f66-a3d2-4972-8758-4fcede9f03d3",
+          "host": "localhost:8080",
+          "content-type": "application/json",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "PostmanRuntime/7.29.2",
+          "accept": "*/*"
+        },
+        "normalized_path_info": "/api/employee",
+        "path_info": "/api/employee",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 73,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+      "event": "call",
+      "id": 74,
+      "lineno": 53,
+      "method_id": "list",
+      "path": "com/javatechie/controller/impl/EmployeeControllerImpl.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+        "object_id": 897478931,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImpl@357e7113"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.service.impl.EmployeeServiceImpl",
+      "event": "call",
+      "id": 75,
+      "lineno": 49,
+      "method_id": "findAll",
+      "path": "com/javatechie/service/impl/EmployeeServiceImpl.java",
+      "receiver": {
+        "class": "com.javatechie.service.impl.EmployeeServiceImpl",
+        "object_id": 309534943,
+        "value": "com.javatechie.service.impl.EmployeeServiceImpl@127320df"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "event": "call",
+      "id": 76,
+      "sql_query": {
+        "database_type": "H2",
+        "sql": "select employee0_.id as id1_0_, employee0_.dept as dept2_0_, employee0_.name as name3_0_, employee0_.salary as salary4_0_ from employee employee0_"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000679,
+      "event": "return",
+      "id": 77,
+      "parent_id": 76,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.03396,
+      "event": "return",
+      "id": 78,
+      "parent_id": 75,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 827977831,
+        "value": "[com.javatechie.entity.Employee@5c8dbbb7, com.javatechie.entity.Employee@6250ebff]"
+      },
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 79,
+      "lineno": 50,
+      "method_id": "asDTOList",
+      "parameters": [
+        {
+          "class": "java.util.ArrayList",
+          "kind": "req",
+          "name": "entityList",
+          "object_id": 827977831,
+          "value": "[com.javatechie.entity.Employee@5c8dbbb7, com.javatechie.entity.Employee@6250ebff]"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 80,
+      "lineno": 20,
+      "method_id": "asDTO",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "name": "entity",
+          "object_id": 1552792503,
+          "value": "com.javatechie.entity.Employee@5c8dbbb7"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 81,
+      "lineno": 13,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 158954806,
+          "value": "1"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1753483156,
+        "value": "com.javatechie.dto.EmployeeDTO@68840794"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000441,
+      "event": "return",
+      "id": 82,
+      "parent_id": 81,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 83,
+      "lineno": 21,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1949598773,
+          "value": "Basant"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1753483156,
+        "value": "com.javatechie.dto.EmployeeDTO@68840794"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000079,
+      "event": "return",
+      "id": 84,
+      "parent_id": 83,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 85,
+      "lineno": 29,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 405549144,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1753483156,
+        "value": "com.javatechie.dto.EmployeeDTO@68840794"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000077,
+      "event": "return",
+      "id": 86,
+      "parent_id": 85,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 87,
+      "lineno": 37,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 743101823,
+          "value": "500000.0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1753483156,
+        "value": "com.javatechie.dto.EmployeeDTO@68840794"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000242,
+      "event": "return",
+      "id": 88,
+      "parent_id": 87,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0012001,
+      "event": "return",
+      "id": 89,
+      "parent_id": 80,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 1753483156,
+        "value": "com.javatechie.dto.EmployeeDTO@68840794"
+      },
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.mapper.EmployeeMapperImpl",
+      "event": "call",
+      "id": 90,
+      "lineno": 20,
+      "method_id": "asDTO",
+      "parameters": [
+        {
+          "class": "com.javatechie.entity.Employee",
+          "kind": "req",
+          "name": "entity",
+          "object_id": 1649470463,
+          "value": "com.javatechie.entity.Employee@6250ebff"
+        }
+      ],
+      "path": "com/javatechie/mapper/EmployeeMapperImpl.java",
+      "receiver": {
+        "class": "com.javatechie.mapper.EmployeeMapperImpl",
+        "object_id": 242619213,
+        "value": "com.javatechie.mapper.EmployeeMapperImpl@e76134d"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 91,
+      "lineno": 13,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1540036707,
+          "value": "2"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 489636677,
+        "value": "com.javatechie.dto.EmployeeDTO@1d2f4345"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000174,
+      "event": "return",
+      "id": 92,
+      "parent_id": 91,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 93,
+      "lineno": 21,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 124148829,
+          "value": "Santosh"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 489636677,
+        "value": "com.javatechie.dto.EmployeeDTO@1d2f4345"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000076,
+      "event": "return",
+      "id": 94,
+      "parent_id": 93,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 95,
+      "lineno": 29,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 405549144,
+          "value": "DEV"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 489636677,
+        "value": "com.javatechie.dto.EmployeeDTO@1d2f4345"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000079,
+      "event": "return",
+      "id": 96,
+      "parent_id": 95,
+      "thread_id": 29
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 97,
+      "lineno": 37,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 1670070863,
+          "value": "1000000.0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 489636677,
+        "value": "com.javatechie.dto.EmployeeDTO@1d2f4345"
+      },
+      "static": false,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0000101,
+      "event": "return",
+      "id": 98,
+      "parent_id": 97,
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0003009,
+      "event": "return",
+      "id": 99,
+      "parent_id": 90,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 489636677,
+        "value": "com.javatechie.dto.EmployeeDTO@1d2f4345"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0015689,
+      "event": "return",
+      "id": 100,
+      "parent_id": 79,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 729497869,
+        "value": "[com.javatechie.dto.EmployeeDTO@68840794, com.javatechie.dto.EmployeeDTO@1d2f4345]"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.035757,
+      "event": "return",
+      "id": 101,
+      "parent_id": 74,
+      "return_value": {
+        "class": "java.util.ArrayList",
+        "object_id": 729497869,
+        "value": "[com.javatechie.dto.EmployeeDTO@68840794, com.javatechie.dto.EmployeeDTO@1d2f4345]"
+      },
+      "thread_id": 29
+    },
+    {
+      "elapsed": 0.0377092,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Transfer-Encoding": "chunked",
+          "Keep-Alive": "timeout=60",
+          "Connection": "keep-alive",
+          "Date": "Thu, 08 Jun 2023 06:53:28 GMT",
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 102,
+      "parent_id": 73,
+      "thread_id": 29
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "content-length": "64",
+          "postman-token": "5d3c2324-5b91-473c-bf5a-a48a6b8f90a8",
+          "host": "localhost:8080",
+          "content-type": "application/json",
+          "connection": "keep-alive",
+          "accept-encoding": "gzip, deflate, br",
+          "user-agent": "PostmanRuntime/7.29.2",
+          "accept": "*/*"
+        },
+        "normalized_path_info": "/api/employee/{id}",
+        "path_info": "/api/employee/2",
+        "protocol": "HTTP/1.1",
+        "request_method": "DELETE"
+      },
+      "id": 103,
+      "message": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "id",
+          "object_id": 966064347,
+          "value": "2"
+        }
+      ],
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+      "event": "call",
+      "id": 104,
+      "lineno": 47,
+      "method_id": "delete",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1540036707,
+          "value": "2"
+        }
+      ],
+      "path": "com/javatechie/controller/impl/EmployeeControllerImpl.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+        "object_id": 897478931,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImpl@357e7113"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.javatechie.service.impl.EmployeeServiceImpl",
+      "event": "call",
+      "id": 105,
+      "lineno": 18,
+      "method_id": "deleteById",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "object_id": 1540036707,
+          "value": "2"
+        }
+      ],
+      "path": "com/javatechie/service/impl/EmployeeServiceImpl.java",
+      "receiver": {
+        "class": "com.javatechie.service.impl.EmployeeServiceImpl",
+        "object_id": 309534943,
+        "value": "com.javatechie.service.impl.EmployeeServiceImpl@127320df"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "defined_class": "com.javatechie.service.impl.EmployeeServiceImpl",
+      "event": "call",
+      "id": 106,
+      "lineno": 39,
+      "method_id": "deleteById",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1540036707,
+          "value": "2"
+        }
+      ],
+      "path": "com/javatechie/service/impl/EmployeeServiceImpl.java",
+      "receiver": {
+        "class": "com.javatechie.service.impl.EmployeeServiceImpl",
+        "object_id": 309534943,
+        "value": "com.javatechie.service.impl.EmployeeServiceImpl@127320df"
+      },
+      "static": false,
+      "thread_id": 31
+    },
+    {
+      "event": "call",
+      "id": 107,
+      "sql_query": {
+        "database_type": "H2",
+        "sql": "select employee0_.id as id1_0_0_, employee0_.dept as dept2_0_0_, employee0_.name as name3_0_0_, employee0_.salary as salary4_0_0_ from employee employee0_ where employee0_.id=?"
+      },
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.000052,
+      "event": "return",
+      "id": 108,
+      "parent_id": 107,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.0026778,
+      "event": "return",
+      "id": 109,
+      "parent_id": 106,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.0027292,
+      "event": "return",
+      "id": 110,
+      "parent_id": 105,
+      "thread_id": 31
+    },
+    {
+      "event": "call",
+      "id": 111,
+      "sql_query": {
+        "database_type": "H2",
+        "sql": "delete from employee where id=?"
+      },
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.000063,
+      "event": "return",
+      "id": 112,
+      "parent_id": 111,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.0038243,
+      "event": "return",
+      "id": 113,
+      "parent_id": 104,
+      "thread_id": 31
+    },
+    {
+      "elapsed": 0.004413,
+      "event": "return",
+      "http_server_response": {
+        "headers": {},
+        "status": 200
+      },
+      "id": 114,
+      "parent_id": 103,
+      "thread_id": 31
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "app": "employee-service",
+    "language": {
+      "name": "java",
+      "version": "17.0.5+9-LTS-191",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "remote_recording",
+      "type": "remote"
+    },
+    "recording": {},
+    "framework": {},
+    "name": "employee-flow"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "setId",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:13"
+                    },
+                    {
+                      "name": "setSalary",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:37"
+                    },
+                    {
+                      "name": "setName",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:21"
+                    },
+                    {
+                      "name": "setDept",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:29"
+                    }
+                  ],
+                  "name": "EmployeeDTO",
+                  "type": "class"
+                }
+              ],
+              "name": "dto",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "save",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImpl.java:33"
+                        },
+                        {
+                          "name": "list",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImpl.java:53"
+                        },
+                        {
+                          "name": "delete",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImpl.java:47"
+                        }
+                      ],
+                      "name": "EmployeeControllerImpl",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "impl",
+                  "type": "package"
+                }
+              ],
+              "name": "controller",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "setName",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/entity/Employee.java:40"
+                    },
+                    {
+                      "name": "setDept",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/entity/Employee.java:48"
+                    },
+                    {
+                      "name": "setSalary",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/entity/Employee.java:56"
+                    }
+                  ],
+                  "name": "Employee",
+                  "type": "class"
+                }
+              ],
+              "name": "entity",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "save",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/service/impl/EmployeeServiceImpl.java:18"
+                        },
+                        {
+                          "name": "save",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/service/impl/EmployeeServiceImpl.java:29"
+                        },
+                        {
+                          "name": "deleteById",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/service/impl/EmployeeServiceImpl.java:39"
+                        },
+                        {
+                          "name": "findAll",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/service/impl/EmployeeServiceImpl.java:49"
+                        },
+                        {
+                          "name": "deleteById",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/service/impl/EmployeeServiceImpl.java:18"
+                        }
+                      ],
+                      "name": "EmployeeServiceImpl",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "impl",
+                  "type": "package"
+                }
+              ],
+              "name": "service",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "asDTO",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/mapper/EmployeeMapperImpl.java:10"
+                    },
+                    {
+                      "name": "asDTO",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/mapper/EmployeeMapperImpl.java:20"
+                    },
+                    {
+                      "name": "asEntity",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/mapper/EmployeeMapperImpl.java:64"
+                    },
+                    {
+                      "name": "asDTOList",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/mapper/EmployeeMapperImpl.java:50"
+                    }
+                  ],
+                  "name": "EmployeeMapperImpl",
+                  "type": "class"
+                }
+              ],
+              "name": "mapper",
+              "type": "package"
+            }
+          ],
+          "name": "javatechie",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "POST /api/employee"
+        },
+        {
+          "type": "route",
+          "name": "GET /api/employee"
+        },
+        {
+          "type": "route",
+          "name": "DELETE /api/employee/{id}"
+        }
+      ]
+    },
+    {
+      "type": "database",
+      "name": "Database",
+      "children": [
+        {
+          "type": "query",
+          "name": "insert into employee (id, dept, name, salary) values (default, ?, ?, ?)"
+        },
+        {
+          "type": "query",
+          "name": "select employee0_.id as id1_0_, employee0_.dept as dept2_0_, employee0_.name as name3_0_, employee0_.salary as salary4_0_ from employee employee0_"
+        },
+        {
+          "type": "query",
+          "name": "select employee0_.id as id1_0_0_, employee0_.dept as dept2_0_0_, employee0_.name as name3_0_0_, employee0_.salary as salary4_0_0_ from employee employee0_ where employee0_.id=?"
+        },
+        {
+          "type": "query",
+          "name": "delete from employee where id=?"
+        }
+      ]
+    }
+  ]
+}

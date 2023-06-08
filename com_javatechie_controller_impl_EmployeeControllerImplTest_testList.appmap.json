@@ -1,0 +1,164 @@
+{
+  "events": [
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 113,
+      "method_id": "testList",
+      "path": "com/javatechie/controller/impl/EmployeeControllerImplTest.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+        "object_id": 1303667524,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImplTest@4db46344"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "Accept": "application/json"
+        },
+        "path_info": "/api/employee",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 2,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+      "event": "call",
+      "id": 3,
+      "lineno": 53,
+      "method_id": "list",
+      "path": "com/javatechie/controller/impl/EmployeeControllerImpl.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+        "object_id": 282166934,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImpl@10d18696"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0003518,
+      "event": "return",
+      "id": 4,
+      "parent_id": 3,
+      "return_value": {
+        "class": "java.util.LinkedList",
+        "object_id": 1336922750,
+        "value": "[]"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0051076,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 5,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0059404,
+      "event": "return",
+      "id": 6,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Employee controller impl test list",
+    "app": "employee-service",
+    "language": {
+      "name": "java",
+      "version": "17.0.5+9-LTS-191",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+      "method_id": "testList"
+    },
+    "source_location": "com/javatechie/controller/impl/EmployeeControllerImplTest.java:113",
+    "framework": {},
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "testList",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImplTest.java:113"
+                        }
+                      ],
+                      "name": "EmployeeControllerImplTest",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "list",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImpl.java:53"
+                        }
+                      ],
+                      "name": "EmployeeControllerImpl",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "impl",
+                  "type": "package"
+                }
+              ],
+              "name": "controller",
+              "type": "package"
+            }
+          ],
+          "name": "javatechie",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /api/employee"
+        }
+      ]
+    }
+  ]
+}

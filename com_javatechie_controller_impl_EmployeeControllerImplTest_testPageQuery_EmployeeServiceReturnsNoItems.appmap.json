@@ -1,0 +1,173 @@
+{
+  "events": [
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 191,
+      "method_id": "testPageQuery_EmployeeServiceReturnsNoItems",
+      "path": "com/javatechie/controller/impl/EmployeeControllerImplTest.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+        "object_id": 1030873355,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImplTest@3d71e10b"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "Accept": "application/json"
+        },
+        "path_info": "/api/employee/page-query",
+        "protocol": "HTTP/1.1",
+        "request_method": "GET"
+      },
+      "id": 2,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+      "event": "call",
+      "id": 3,
+      "lineno": 59,
+      "method_id": "pageQuery",
+      "parameters": [
+        {
+          "class": "org.springframework.data.domain.PageRequest",
+          "kind": "req",
+          "name": "pageable",
+          "object_id": 936618636,
+          "value": "Page request [number: 0, size 20, sort: UNSORTED]"
+        }
+      ],
+      "path": "com/javatechie/controller/impl/EmployeeControllerImpl.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+        "object_id": 282166934,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImpl@10d18696"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0012042,
+      "event": "return",
+      "id": 4,
+      "parent_id": 3,
+      "return_value": {
+        "class": "org.springframework.data.domain.PageImpl",
+        "object_id": 2009932635,
+        "value": "Page 1 of 0 containing UNKNOWN instances"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0409746,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 5,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0879991,
+      "event": "return",
+      "id": 6,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Employee controller impl test page query _ employee service returns no items",
+    "app": "employee-service",
+    "language": {
+      "name": "java",
+      "version": "17.0.5+9-LTS-191",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+      "method_id": "testPageQuery_EmployeeServiceReturnsNoItems"
+    },
+    "source_location": "com/javatechie/controller/impl/EmployeeControllerImplTest.java:191",
+    "framework": {},
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "pageQuery",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImpl.java:59"
+                        }
+                      ],
+                      "name": "EmployeeControllerImpl",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "testPageQuery_EmployeeServiceReturnsNoItems",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImplTest.java:191"
+                        }
+                      ],
+                      "name": "EmployeeControllerImplTest",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "impl",
+                  "type": "package"
+                }
+              ],
+              "name": "controller",
+              "type": "package"
+            }
+          ],
+          "name": "javatechie",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "GET /api/employee/page-query"
+        }
+      ]
+    }
+  ]
+}

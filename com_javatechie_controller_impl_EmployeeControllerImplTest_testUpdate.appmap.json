@@ -1,0 +1,342 @@
+{
+  "events": [
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 206,
+      "method_id": "testUpdate",
+      "path": "com/javatechie/controller/impl/EmployeeControllerImplTest.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+        "object_id": 1775746074,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImplTest@69d7bc1a"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "event": "call",
+      "http_server_request": {
+        "headers": {
+          "Accept": "application/json",
+          "Content-Length": "49",
+          "Content-Type": "application/json;charset=UTF-8"
+        },
+        "path_info": "/api/employee/0",
+        "protocol": "HTTP/1.1",
+        "request_method": "PUT"
+      },
+      "id": 2,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 3,
+      "lineno": 13,
+      "method_id": "setId",
+      "parameters": [
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1202574785,
+          "value": "0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 213063852,
+        "value": "com.javatechie.dto.EmployeeDTO@cb318ac"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000151,
+      "event": "return",
+      "id": 4,
+      "parent_id": 3,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 5,
+      "lineno": 21,
+      "method_id": "setName",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "name",
+          "object_id": 1852212002,
+          "value": "name"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 213063852,
+        "value": "com.javatechie.dto.EmployeeDTO@cb318ac"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.000008,
+      "event": "return",
+      "id": 6,
+      "parent_id": 5,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 7,
+      "lineno": 29,
+      "method_id": "setDept",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dept",
+          "object_id": 1978560393,
+          "value": "dept"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 213063852,
+        "value": "com.javatechie.dto.EmployeeDTO@cb318ac"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000076,
+      "event": "return",
+      "id": 8,
+      "parent_id": 7,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.javatechie.dto.EmployeeDTO",
+      "event": "call",
+      "id": 9,
+      "lineno": 37,
+      "method_id": "setSalary",
+      "parameters": [
+        {
+          "class": "java.lang.Double",
+          "kind": "req",
+          "name": "salary",
+          "object_id": 554515010,
+          "value": "0.0"
+        }
+      ],
+      "path": "com/javatechie/dto/EmployeeDTO.java",
+      "receiver": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 213063852,
+        "value": "com.javatechie.dto.EmployeeDTO@cb318ac"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.000008,
+      "event": "return",
+      "id": 10,
+      "parent_id": 9,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+      "event": "call",
+      "id": 11,
+      "lineno": 69,
+      "method_id": "update",
+      "parameters": [
+        {
+          "class": "com.javatechie.dto.EmployeeDTO",
+          "kind": "req",
+          "name": "employeeDTO",
+          "object_id": 213063852,
+          "value": "com.javatechie.dto.EmployeeDTO@cb318ac"
+        },
+        {
+          "class": "java.lang.Integer",
+          "kind": "req",
+          "name": "id",
+          "object_id": 1202574785,
+          "value": "0"
+        }
+      ],
+      "path": "com/javatechie/controller/impl/EmployeeControllerImpl.java",
+      "receiver": {
+        "class": "com.javatechie.controller.impl.EmployeeControllerImpl",
+        "object_id": 282166934,
+        "value": "com.javatechie.controller.impl.EmployeeControllerImpl@10d18696"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000927,
+      "event": "return",
+      "id": 12,
+      "parent_id": 11,
+      "return_value": {
+        "class": "com.javatechie.dto.EmployeeDTO",
+        "object_id": 896475319,
+        "value": "com.javatechie.dto.EmployeeDTO@356f20b7"
+      },
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0004928,
+      "event": "return",
+      "http_server_response": {
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "status": 200
+      },
+      "id": 13,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0008851,
+      "event": "return",
+      "id": 14,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Employee controller impl test update",
+    "app": "employee-service",
+    "language": {
+      "name": "java",
+      "version": "17.0.5+9-LTS-191",
+      "engine": "Java HotSpot(TM) 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.javatechie.controller.impl.EmployeeControllerImplTest",
+      "method_id": "testUpdate"
+    },
+    "source_location": "com/javatechie/controller/impl/EmployeeControllerImplTest.java:206",
+    "framework": {},
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "name": "setId",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:13"
+                    },
+                    {
+                      "name": "setSalary",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:37"
+                    },
+                    {
+                      "name": "setName",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:21"
+                    },
+                    {
+                      "name": "setDept",
+                      "type": "function",
+                      "static": false,
+                      "location": "com/javatechie/dto/EmployeeDTO.java:29"
+                    }
+                  ],
+                  "name": "EmployeeDTO",
+                  "type": "class"
+                }
+              ],
+              "name": "dto",
+              "type": "package"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "name": "update",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImpl.java:69"
+                        }
+                      ],
+                      "name": "EmployeeControllerImpl",
+                      "type": "class"
+                    },
+                    {
+                      "children": [
+                        {
+                          "name": "testUpdate",
+                          "type": "function",
+                          "static": false,
+                          "location": "com/javatechie/controller/impl/EmployeeControllerImplTest.java:206"
+                        }
+                      ],
+                      "name": "EmployeeControllerImplTest",
+                      "type": "class"
+                    }
+                  ],
+                  "name": "impl",
+                  "type": "package"
+                }
+              ],
+              "name": "controller",
+              "type": "package"
+            }
+          ],
+          "name": "javatechie",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    },
+    {
+      "type": "http",
+      "name": "HTTP server requests",
+      "children": [
+        {
+          "type": "route",
+          "name": "PUT /api/employee/0"
+        }
+      ]
+    }
+  ]
+}
